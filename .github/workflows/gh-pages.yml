@@ -1,0 +1,25 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # or your default branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the repository
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      # Step 2: Deploy to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # GitHub automatically creates a GITHUB_TOKEN secret to use
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # The publish directory should point to your site’s files.
+          # If your HTML and CSS files are in the repository’s root, use './'
+          publish_dir: ./
