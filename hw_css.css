@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html body {
+  background-color: #fafafa;
+}
+.orange-col {
+  background-color: #c62300;
+  color: white;
+}
+
+.blue-col {
+  background-color: #9f0d7f;
+  color: white;
+}
+
+.purple-col {
+  background-color: #500073;
+  color: white;
+}
+
+/* google font */
+.fira-sans-regular {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fira-sans-bold {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fira Sans", sans-serif;
+}
+
+p {
+  font-family: "Fira Sans", sans-serif;
+}
+/* Nav bar */
+.bg-body-tertiary {
+  background-color: #f0f5fa !important;
+}
+
+.nav-link {
+  color: #9f0d7f !important;
+}
+
+.nav-link:hover {
+  color: #333 !important;
+}
+
+.active {
+  color: #333 !important;
+}
+.navbar-brand {
+  color: #333 !important;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+}
+
+.navbar-toggler {
+  filter: invert(100%);
+}
+
+/* Font */
+h1 {
+  font-size: 2.027em; /* ~32.43px */
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.802em; /* ~28.83px */
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.602em; /* ~25.63px */
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1.424em; /* ~22.78px */
+  font-weight: 400;
+}
+
+p {
+  font-size: 1em; /* ~16px */
+  font-weight: 400;
+}
+
+.footer-am {
+  text-align: center;
+}
+
+/* Button */
+.btn-primary {
+  background-color: #9f0d7f;
+  color: #f0f5fa;
+  border-color: #f0f5fa;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+/* carousel */
+.carousel-padding {
+  padding-left: 130px;
+  padding-right: 130px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #333;
+}
